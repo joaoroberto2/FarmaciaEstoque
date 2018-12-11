@@ -28,7 +28,10 @@ public class LoginController extends DefaultController {
 		// setando o usuario na sessao
 		setUsuarioLogado(usuarioValidado);
 		
-		return "pages/cadastroCliente.xhtml";
+		//return "pages/cadastroFuncionario.xhtml";
+		Util.redirect("pages/cadastroCliente.xhtml");
+		return "";
+		
 	}
 
 	public Usuario getUsuario() {

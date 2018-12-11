@@ -7,7 +7,7 @@ public enum TipoUsuario {
 	
 	ADMINSTRADOR(0, "Adminstrador", 
 			Arrays.asList("cadastroCliente.xhtml", "cadastroFornecedor.xhtml", "listagemcidade.xhtml", "listagemusuario.xhtml", "cadastrousuario.xhtml")),
-	USUARIO_COMUM(1, "Usuario Comum", Arrays.asList("cadastroFuncionario.xhtml", "listagemcidade.xhtml"));
+	USUARIO_COMUM(1, "Usuario Comum", Arrays.asList("cadastroCliente.xhtml", "listagemcidade.xhtml"));
 	
 	private int id;
 	private String label;
