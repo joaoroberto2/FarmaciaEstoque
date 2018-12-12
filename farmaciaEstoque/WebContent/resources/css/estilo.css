@@ -1,0 +1,25 @@
+.ui-layout-unit{
+	border: none !important; 
+}
+
+.ui-layout-unit-content{
+	margin-top: -12px;
+	padding: 0 0 0 0;
+}
+
+html{
+	font-size: 12pt !important;	
+}
+
+.navbar{
+	border-radius: 0 !important;
+	margin-bottom: 0 !important;
+}
+
+.cadFunci{
+	width: 100%;
+}
+
+.td200 {
+	width:200px ;
+}

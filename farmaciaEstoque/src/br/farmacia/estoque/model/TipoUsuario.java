@@ -6,7 +6,7 @@ import java.util.List;
 public enum TipoUsuario {
 	
 	ADMINSTRADOR(0, "Adminstrador", 
-			Arrays.asList("cadastroCliente.xhtml", "cadastroFornecedor.xhtml", "listagemcidade.xhtml", "listagemusuario.xhtml", "cadastrousuario.xhtml")),
+			Arrays.asList("cadastroCliente.xhtml", "cadastroFornecedor.xhtml","relatorioFornecedor.xhtml", "listagemcidade.xhtml", "listagemusuario.xhtml", "cadastroFuncionario","cadastrousuario.xhtml")),
 	USUARIO_COMUM(1, "Usuario Comum", Arrays.asList("cadastroCliente.xhtml", "listagemcidade.xhtml"));
 	
 	private int id;
